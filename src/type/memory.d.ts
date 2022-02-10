@@ -1,3 +1,4 @@
 interface CreepMemory {
-  role: "upgrader" | "harvester";
+  role: Roles;
+  building: boolean;
 }
