@@ -1,4 +1,4 @@
 interface CreepMemory {
   role: Roles;
-  building: boolean;
+  building?: boolean;
 }
